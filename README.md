@@ -1,41 +1,29 @@
 📷 Face Recognition Attendance System
 This project uses OpenCV and DeepFace to mark attendance by detecting and recognizing faces from a live webcam feed. When the spacebar is pressed, a photo is captured and matched against a database of known faces.
 
-🛠 Features
-Live webcam capture
+🛠 **Features**
+  -Live webcam capture
+  -Face detection and recognition using DeepFace
+  -Automatic image saving and comparison
+  -Attendance marking based on face match
 
-Face detection and recognition using DeepFace
+Uses **RetinaFace + FaceNet** backend for accuracy
 
-Automatic image saving and comparison
-
-Attendance marking based on face match
-
-Uses RetinaFace + FaceNet backend for accuracy
-
-
-📁 Directory Structure
+📁**Directory Structure**
 
 `├── attendance_library/       # Folder with reference images (known students)`
 `├── captured_pics/            # Temporary folder for captured webcam images`
 `├── face_detection.py         # Main script`
-🚀 How It Works
-Launches the webcam using OpenCV
-
-Press Space to take a picture, or Esc to exit
-
-Captured image is compared with stored images in attendance_library/
-
-If a match is found:
-
-Attendance is marked
-
-Image is displayed with confirmation
-
-If no match is found:
-
-Attendance is not marked
-
-Notification is displayed on image
+🚀**How It Works**
+  -Launches the webcam using OpenCV
+  -Press **Space** to take a picture, or Esc to exit
+  -Captured image is compared with stored images in attendance_library/
+  -If **a match is found**:
+      -Attendance is marked
+      -Image is displayed with confirmation
+  -If **no match is foun**d:
+    -Attendance is not marked
+    -Notification is displayed on image
 
 🧠 Tech Stack
 Python 3.8+
