@@ -1,5 +1,6 @@
-📷 Face Recognition Attendance System
-This project uses OpenCV and DeepFace to mark attendance by detecting and recognizing faces from a live webcam feed. When the spacebar is pressed, a photo is captured and matched against a database of known faces.
+📷 **Face Recognition Attendance System**
+This project uses OpenCV and DeepFace to mark attendance by detecting and recognizing faces from a live webcam feed. 
+When the spacebar is pressed, a photo is captured and matched against a database of known faces.
 
 🛠 **Features**
   -Live webcam capture
